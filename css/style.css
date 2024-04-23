@@ -1,0 +1,81 @@
+.message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    max-width: 1200px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 9999999;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .message-info .message-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-left: 3px solid #2F86EB;
+  }
+  
+  .message-success .message-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-left: 3px solid #47d764;
+  }
+  
+  .message-error .message-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-left: 3px solid #ff355b;
+  }
+  
+  .message span {
+    font-size: 12px;
+  }
+  
+  .message i {
+    color: #ff355b;
+    cursor: pointer;
+    margin: 10px;
+    align-self: flex-start;
+  }
+  
+  .message i:hover {
+    color: 000000;
+  }
+  
+  .message-info .progress-bar {
+    width: 90%;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #2F86EB;
+    border-radius: 4px;
+    animation: progress 5s linear;
+  }
+  
+  .message-success .progress-bar {
+    width: 90%;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #47d764;
+    border-radius: 4px;
+    animation: progress 5s linear;
+  }
+  
+  .message-error .progress-bar {
+    width: 90%;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #ff355b;
+    border-radius: 4px;
+    animation: progress 5s linear;
+  }
